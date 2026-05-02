@@ -1,2 +1,27 @@
-# Project exclude paths
-/membership-rfid-app/backend/target/
+# Angular / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Java / Maven
+backend/target/
+*.class
+
+# IntelliJ / IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+*.env
+application-local.yml
+application-dev.yml
