@@ -30,13 +30,6 @@ import { CommonModule } from '@angular/common';
     <div class="stat">{{data?.todayAccessAttempts || 0}}</div>
   </div>
 </div>
-
-<div class="card">
-  <h3>Brzi pregled</h3>
-  <p class="muted">
-    Ovde vidiš osnovno stanje sistema. Za detalje koristi menije: Članovi, Kartice, Paketi i Ulazi.
-  </p>
-</div>
 `
 })
 export class DashboardComponent implements OnInit {
