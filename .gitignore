@@ -1,26 +1,42 @@
-# Angular / Node
-frontend/node_modules/
-frontend/dist/
-frontend/.angular/
-frontend/.cache/
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
-
-# Java / Maven
-backend/target/
+# =========================
+# Backend / Java / Maven
+# =========================
+membership-rfid-app/backend/target/
+target/
 *.class
 
-# IntelliJ / IDE
+# =========================
+# Frontend / Angular / Node
+# =========================
+membership-rfid-app/frontend/node_modules/
+membership-rfid-app/frontend/dist/
+membership-rfid-app/frontend/.angular/
+membership-rfid-app/frontend/.cache/
+membership-rfid-app/frontend/npm-debug.log*
+membership-rfid-app/frontend/yarn-debug.log*
+membership-rfid-app/frontend/yarn-error.log*
+
+node_modules/
+dist/
+.angular/
+.cache/
+
+# =========================
+# IDE
+# =========================
 .idea/
 *.iml
 .vscode/
 
+# =========================
 # OS
+# =========================
 .DS_Store
 Thumbs.db
 
+# =========================
 # Env / secrets
+# =========================
 .env
 *.env
 application-local.yml
