@@ -3,7 +3,7 @@ import { HttpClient, HttpInterceptorFn } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { tap } from 'rxjs';
 
-export const API = 'http://localhost:8080/api';
+export const API = 'https://cardreader-gymapp.onrender.com/api';
 
 export interface Member { id?:number; firstName:string; lastName:string; phone?:string; email?:string; note?:string; status?:string; createdAt?:string; }
 export interface Plan { id?:number; name:string; code:string; durationDays:number; price:number; active:boolean; }
